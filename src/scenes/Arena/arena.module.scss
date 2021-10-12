@@ -1,0 +1,9 @@
+.arena {
+  display: flex;
+  @include clearBorderBox;
+}
+
+.arenaGrid {
+  @include clearBorderBox;
+  @include commonBorder;
+}

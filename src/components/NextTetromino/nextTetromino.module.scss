@@ -1,0 +1,10 @@
+.wrapper {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.nextTetromino {
+  @include commonBorder;
+  box-sizing: border-box;
+  width: calc(2px + 4 * $blockSize);
+}

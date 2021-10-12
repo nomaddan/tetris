@@ -1,0 +1,8 @@
+@mixin clearBorderBox {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin commonBorder {
+  border: 1px solid $commonBorderColor;
+}

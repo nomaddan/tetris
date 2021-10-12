@@ -1,3 +1,3 @@
-engine:
-loop:
-scene:
+```
+npm i && npm start
+```

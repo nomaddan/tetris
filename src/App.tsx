@@ -1,8 +1,14 @@
-import React from 'react'
+import { StoreProvider } from 'easy-peasy';
+import React from 'react';
 
-export function App() {
+import { store } from 'store';
+
+import { Game } from 'components/Game/Game';
+
+export const App: React.FC = () => {
   return (
-    <div />
-  )
-}
-
+    <StoreProvider store={store}>
+      <Game />
+    </StoreProvider>
+  );
+};

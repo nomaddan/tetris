@@ -1,0 +1,20 @@
+.mainMenu {
+  text-align: center;
+}
+
+.tetrominosWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.tetrominos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tetro {
+  width: calc(2px + 4 * $blockSize);
+  margin: 0 8px 8px 0;
+  @include commonBorder;
+}
